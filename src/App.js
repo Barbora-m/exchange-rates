@@ -5,7 +5,6 @@ import { Provider } from "react-redux";
 import { persistStore, persistReducer } from "redux-persist";
 import storage from "redux-persist/lib/storage";
 import { PersistGate } from "redux-persist/integration/react";
-import "./App.css";
 import { Selectors } from "./components/Selectors";
 import { RateList } from "./components/RateList";
 import { reducer } from "./store/reducer";
